@@ -1,0 +1,75 @@
+/**
+ * Parallax Scrolling Tutorial
+ * For NetTuts+
+ *  
+ * Author: Mohiuddin Parekh
+ *	http://www.mohi.me
+ * 	@mohiuddinparekh   
+ */
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-family: 'Comic Sans';
+}
+
+h1{
+	font-size: 2.85em;
+}
+
+#beach1 {
+	background: url(../images/strand.jpg) 50% 0 no-repeat fixed;
+	height: 1200px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+}
+
+#beach2 {
+	background: url(../images/strand_2.jpg) 50% 0 no-repeat fixed;
+	height: 1200px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+}
+#beach3 { 
+    background: url(../images/strand_3.jpg) 50% 0 no-repeat fixed; 
+    height: 1200px;
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+/* Introduction */
+#beach1 article {
+	background: url("../images/intro.png") no-repeat scroll center top transparent;	
+	height: 458px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 291px;
+	width: 100%;
+}
+
+#beach2 article {
+	background: url("../images/parallax.png") no-repeat scroll center top transparent;
+	height: 458px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 291px;
+	width: 100%;
+}
+
+#beach2 article {
+    /* background: url("../images/parallax.png") no-repeat scroll center top transparent; */
+    height: 458px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 291px;
+    width: 100%;
+}
